@@ -8,8 +8,17 @@ This project is a visual representation of **Dijkstra's Algorithm**, implemented
 
 ## 📸 Screenshots
 
-| ![Grid Screenshot](screenshots/Before.png) | ![Building Wall Screenshot](screenshots/MakingForbiddenCells.png) |
-| ![Process Screenshot](screenshots/SearchingPath.png) | ![Found Path Screenshot](screenshots/PathFound.png) |
+### Initial Grid with Start & Finish Nodes
+ ![Grid Screenshot](screenshots/Before.png)  
+
+### Building Walls (Forbidden Cells)
+ ![Building Wall Screenshot](screenshots/MakingForbiddenCells.png) 
+
+### Pathfinding in Progress
+ ![Process Screenshot](screenshots/SearchingPath.png) 
+
+### Shortest Path Found
+ ![Found Path Screenshot](screenshots/PathFound.png) 
 
 ---
 
