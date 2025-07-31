@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# 🛤️ Dijkstra Visualization using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a visual representation of **Dijkstra's Algorithm**, implemented using **React.js**. It allows users to understand how the algorithm traverses nodes to find the shortest path in a grid.
 
-## Available Scripts
+🔗 **Live Demo**: [dijkstra-visualization-spon.vercel.app](https://dijkstra-visualization-spon.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Grid with Start and Finish | Pathfinding in Action |
+|----------------------------|------------------------|
+| ![Grid Screenshot](screenshots/grid.png) | ![Pathfinding Screenshot](screenshots/animation.gif) |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> 💡 To add your own screenshots, place images in a `screenshots/` folder at the root of your project and update the paths above accordingly.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Project Structure
 
-### `npm run build`
+```
+project-root/
+├── src/
+│   ├── algorithms/
+│   │   └── dijkstra.js
+│   ├── PathfindingVisualizer/
+│   │   ├── PathfindingVisualizer.css
+│   │   ├── PathfindingVisualizer.jsx
+│   │   └── Node/
+│   │       ├── Node.css
+│   │       └── Node.jsx
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   └── index.js
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Interactive grid for visualizing pathfinding
+- Walls and weighted nodes simulation
+- Animated traversal of nodes using Dijkstra’s algorithm
+- Reset and clear board functionality
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js (v16 or higher)
+- npm or yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+```bash
+git clone https://github.com/your-username/dijkstra-visualizer.git
+cd dijkstra-visualizer
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run the App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+This will start the development server and open the app in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📂 Key Files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- `dijkstra.js` – Core logic of Dijkstra’s algorithm.
+- `PathfindingVisualizer.jsx` – Main component to render and control the grid.
+- `Node.jsx` – Represents each cell/node in the grid.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🧪 Testing
 
-### Advanced Configuration
+To run the basic test suite (if defined):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm test
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ✨ Future Improvements
 
-### `npm run build` fails to minify
+- Add support for other algorithms like A*, BFS, DFS
+- Mobile responsiveness
+- Color customization for node states
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+Made with ❤️ using React.
