@@ -8,11 +8,8 @@ This project is a visual representation of **Dijkstra's Algorithm**, implemented
 
 ## 📸 Screenshots
 
-| Grid with Start and Finish | Pathfinding in Action |
-|----------------------------|------------------------|
-| ![Grid Screenshot](screenshots/grid.png) | ![Pathfinding Screenshot](screenshots/animation.gif) |
-
-> 💡 To add your own screenshots, place images in a `screenshots/` folder at the root of your project and update the paths above accordingly.
+| ![Grid Screenshot](screenshots/Before.png) | ![Building Wall Screenshot](screenshots/MakingForbiddenCells.png) |
+| ![Process Screenshot](screenshots/SearchingPath.png) | ![Found Path Screenshot](screenshots/PathFound.png) |
 
 ---
 
